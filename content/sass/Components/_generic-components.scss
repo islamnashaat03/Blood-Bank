@@ -14,8 +14,15 @@ a {
     text-decoration: none;
     color: inherit;
   }
+  &:focus{
+    box-shadow: none;
+  }
 }
-
+.btn{
+  &:focus{
+    box-shadow: none;
+  }
+}
 .navy-btn {
   background-color: $mainColor;
   border-radius: 5px;
